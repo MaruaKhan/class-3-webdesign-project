@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+}
+p{
+    margin: 0%;
+}
+img{
+    max-width: 100%;
+}
+header{border-bottom: 1px solid #ff000069;}
+.container{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    max-width: 10%;
+    flex-basis: 10%;
+}
+.logo img{
+    width: 100px;
+}
+.navigation{
+    max-width: 90%;
+    flex-basis: 90%;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li{}
+.menu li a{
+    color: #ff0000;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.banner_image{
+    height: 478px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    image-rendering: -webkit-optimize-contrast;
+}
